@@ -10,14 +10,14 @@ class HomeController extends Controller
   {
       return view('Uudai');
   }
+    public function uudai2()
+    {
+        return view('Uudai2');
+    }
 
     public function trangthai()
     {
         return view('trangthai');
-    }
-    public function uudai2()
-    {
-        return view('Uudai2');
     }
     public function gioithieu()
     {
@@ -26,5 +26,13 @@ class HomeController extends Controller
     public function muave()
     {
         return view('Muave');
+    }
+    public function ve()
+    {
+        return view('ve');
+    }
+    public function thongtin()
+    {
+        return view('thongtin');
     }
 }
