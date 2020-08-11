@@ -81,4 +81,13 @@ class ProjectController extends Controller
     {
         //
     }
+    public function search(){
+//        $search = request('search');
+//        $id = DB::table('thongtinve')
+//            ->join('chuyenbay','thongtinve.chuyenbay_id','=','chuyenbay.id')
+//            ->join('hanhkhach','thongtinve.hk_id','=','hanhkhach.id')
+//            ->join('datve','thongtinve.datve_id','=','datve.id')
+//            ->where('thongtinve.id','LIKE','%'.$search.'%')
+//            ->get();
+    }
 }

@@ -22,17 +22,18 @@
                                     </tr>
                                     </thead>
                                     <tbody>
+
                                     <tr>
                                         <th scope="row">VN504</th>
                                         <td>
                                             <div class="flight-from float-left">
-                                                <span class="time-from">05:30</span><br/>
-                                                HAN
+                                                <span class="time-from">5:30</span><br/>
+                                                Hà Nội
                                             </div>
                                             <span class="float-left"><i class="fas fa-plane m-2"></i></span>
                                             <div class="flight-to float-left">
                                                 <span class="time-to">7:40</span><br/>
-                                                DLI</div>
+                                                Đà Lạt</div>
                                         </td>
                                         <td>2 tiếng 10 phút</td>
                                         <td class="price-normal">
@@ -61,10 +62,12 @@
                                         </td>
                                     </tr>
                                     </tbody>
+
                                 </table>
                             </div>
                         </form>
-                        <h4>Chọn chuyến bay về </h4>
+
+
                         <form method="post">
                             <div class="table-responsive table-bordered text-center">
                                 <table class="table">
@@ -78,44 +81,46 @@
                                     </tr>
                                     </thead>
                                     <tbody>
+                                    @foreach()
                                     <tr>
-                                        <th scope="row">VN504</th>
+                                        <th scope="row">{{$id}}</th>
                                         <td>
                                             <div class="flight-from float-left">
-                                                <span class="time-from">05:30</span><br/>
-                                                DLI
+                                                <span class="time-from">{{$giodi}}</span><br/>
+                                                {{$diemdi}}
                                             </div>
                                             <span class="float-left"><i class="fas fa-plane m-2"></i></span>
                                             <div class="flight-to float-left">
-                                                <span class="time-to">7:40</span><br/>
-                                                HAN</div>
+                                                <span class="time-to">{{$gioden}}</span><br/>
+                                                {{$diemden}}</div>
                                         </td>
-                                        <td>2 tiếng 10 phút</td>
+                                        <td>{{$thoigian}}</td>
                                         <td class="price-normal">
                                             <div class="form-group">
                                                 <div class="radio">
                                                     <label>
-                                                        <input type="radio" name="choose" required style="height: 18px; width: 18px;vertical-align: middle;">
+                                                        <input type="radio" name="radio" value="phothong" required style="height: 18px; width: 18px;vertical-align: middle;" required>
                                                         Chọn chuyến bay
                                                     </label>
                                                 </div>
-                                                <h5 class="flight-price">699,000 VND</h5>
-                                                <span class="flight-seat">Chuyến bay này còn 5 chỗ</span>
+                                                <h5 class="flight-price">{{$phothong}}</h5>
+                                                <span class="flight-seat">Chuyến bay này còn {{$soghe}} chỗ</span>
                                             </div>
                                         </td>
                                         <td class="price-vip">
                                             <div class="form-group">
                                                 <div class="radio">
                                                     <label>
-                                                        <input type="radio" name="choose" required style="height: 18px; width: 18px;vertical-align: middle;">
+                                                        <input type="radio" name="radio" value="thuonggia" required style="height: 18px; width: 18px;vertical-align: middle;" required>
                                                         Chọn chuyến bay
                                                     </label>
                                                 </div>
-                                                <h5 class="flight-price">1,699,000 VND</h5>
-                                                <span class="flight-seat">Chuyến bay này còn 5 chỗ</span>
+                                                <h5 class="flight-price">{{$thuonggia}}</h5>
+                                                <span class="flight-seat">Chuyến bay này còn {{$soghe}} chỗ</span>
                                             </div>
                                         </td>
                                     </tr>
+                                    @endforeach
                                     </tbody>
                                 </table>
                             </div>
