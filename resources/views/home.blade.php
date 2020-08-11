@@ -27,7 +27,7 @@
             <div class="col-md-12 list-button">
                 <div class="button-header">
                     <div class="row">
-                        <a class="btn btn-primary col-md-3" href="#" role="button"><i class="fas fa-ticket-alt"></i> Mua vé</a>
+                        <a class="btn btn-primary col-md-3" href="chuyenbay" role="button"><i class="fas fa-ticket-alt"></i> Mua vé</a>
                         <a class="btn btn-primary col-md-3" href="#" role="button"><i class="fas fa-clipboard-list"></i> Quản lý đặt chỗ</a>
                         <a class="btn btn-primary col-md-3" href="/trangthai" role="button"><i class="fas fa-clock"></i> Trạng thái chuyến bay</a>
                         <a class="btn btn-primary col-md-3" href="#" role="button"><i class="fas fa-calendar-times"></i> Hủy vé</a>
@@ -76,7 +76,7 @@
                         <p class="title-price">Giá một chiều từ</p>
                         <p class="price">1.526.000 VND </p>
                         <p class="title-price">(2.499.000 VND gồm thuế, phí)</p>
-                        <a href="#" class="btn-book">MUA VÉ</a>
+                        <a href="chuyenbay" class="btn-book">MUA VÉ</a>
                     </div>
                 </div>
             </div>
@@ -89,7 +89,7 @@
                         <p class="title-price">Giá một chiều từ</p>
                         <p class="price">1.526.000 VND </p>
                         <p class="title-price">(2.499.000 VND gồm thuế, phí)</p>
-                        <a href="#" class="btn-book">MUA VÉ</a>
+                        <a href="chuyenbay" class="btn-book">MUA VÉ</a>
                     </div>
                 </div>
             </div>
@@ -102,7 +102,7 @@
                         <p class="title-price">Giá một chiều từ</p>
                         <p class="price">1.526.000 VND </p>
                         <p class="title-price">(2.499.000 VND gồm thuế, phí)</p>
-                        <a href="#" class="btn-book">MUA VÉ</a>
+                        <a href="chuyenbay" class="btn-book">MUA VÉ</a>
                     </div>
                 </div>
             </div>
@@ -115,7 +115,7 @@
                         <p class="title-price">Giá một chiều từ</p>
                         <p class="price">199.000 VND </p>
                         <p class="title-price">(2.499.000 VND gồm thuế, phí)</p>
-                        <a href="#" class="btn-book">MUA VÉ</a>
+                        <a href="chuyenbay" class="btn-book">MUA VÉ</a>
                     </div>
                 </div>
             </div>
@@ -128,7 +128,7 @@
                         <p class="title-price">Giá một chiều từ</p>
                         <p class="price">1.526.000 VND </p>
                         <p class="title-price">(2.499.000 VND gồm thuế, phí)</p>
-                        <a href="#" class="btn-book">MUA VÉ</a>
+                        <a href="chuyenbay" class="btn-book">MUA VÉ</a>
                     </div>
                 </div>
             </div>
@@ -141,7 +141,7 @@
                         <p class="title-price">Giá một chiều từ</p>
                         <p class="price">199.000 VND </p>
                         <p class="title-price">(689.000 VND gồm thuế, phí)</p>
-                        <a href="#" class="btn-book">MUA VÉ</a>
+                        <a href="chuyenbay" class="btn-book">MUA VÉ</a>
                     </div>
                 </div>
             </div>
@@ -154,7 +154,7 @@
                         <p class="title-price">Giá một chiều từ</p>
                         <p class="price">199.000 VND </p>
                         <p class="title-price">(689.000 VND gồm thuế, phí)</p>
-                        <a href="#" class="btn-book">MUA VÉ</a>
+                        <a href="chuyenbay" class="btn-book">MUA VÉ</a>
                     </div>
                 </div>
             </div>

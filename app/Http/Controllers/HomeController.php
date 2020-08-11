@@ -23,11 +23,7 @@ class HomeController extends Controller
     {
         return view('Gioithieu');
     }
-    public function muave()
-    {
-        return view('Muave');
-    }
-    public function ve()
+      public function ve()
     {
         return view('ve');
     }
@@ -35,5 +31,12 @@ class HomeController extends Controller
     {
         return view('thongtin');
     }
-
+    public function muave()
+    {
+        return view('Muave');
+    }
+    public function chuyenbay()
+    {
+        return view('chuyenbay');
+    }
 }
