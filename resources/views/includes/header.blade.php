@@ -12,13 +12,13 @@
                     <a class="nav-link" href="/">Trang chủ</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Đặt mua vé </a>
+                    <a class="nav-link" href="/Muave">Đặt mua vé </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Thông tin hành trình</a>
+                    <a class="nav-link" href="">Thông tin hành trình</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Về chúng tôi</a>
+                    <a class="nav-link" href="/Gioithieu">Về chúng tôi</a>
                 </li>
             </ul>
         </div>

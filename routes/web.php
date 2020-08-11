@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 
 Route::get('Muave','HomeController@muave');
-Route::get('trangthai','HomeController@muave');
+Route::get('trangthai','HomeController@trangthai');
 Route::get('Uudai2','HomeController@uudai2');
 Route::get('Gioithieu','HomeController@gioithieu');
 Route::get('Uudai','HomeController@uudai');
