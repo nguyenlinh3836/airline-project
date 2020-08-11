@@ -29,7 +29,7 @@
                     <div class="row">
                         <a class="btn btn-primary col-md-3" href="#" role="button"><i class="fas fa-ticket-alt"></i> Mua vé</a>
                         <a class="btn btn-primary col-md-3" href="#" role="button"><i class="fas fa-clipboard-list"></i> Quản lý đặt chỗ</a>
-                        <a class="btn btn-primary col-md-3" href="#" role="button"><i class="fas fa-clock"></i> Trạng thái chuyến bay</a>
+                        <a class="btn btn-primary col-md-3" href="/trangthai" role="button"><i class="fas fa-clock"></i> Trạng thái chuyến bay</a>
                         <a class="btn btn-primary col-md-3" href="#" role="button"><i class="fas fa-calendar-times"></i> Hủy vé</a>
                     </div>
                 </div>
@@ -58,7 +58,7 @@
                     <a class="btn-yellow" href="#">CHI TIẾT</a>
                 </div>
             </div>
-            <div ><a href="/" class="btn-deal">Xem tất cả các ưu đãi</a></div>
+            <div ><a href="/Uudai" class="btn-deal">Xem tất cả các ưu đãi</a></div>
         </div>
     </section>
 

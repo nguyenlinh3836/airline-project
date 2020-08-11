@@ -18,7 +18,7 @@
                     <a class="nav-link" href="#">Thông tin hành trình</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Về chúng tôi</a>
+                    <a class="nav-link" href="Gioithieu">Về chúng tôi</a>
                 </li>
             </ul>
         </div>

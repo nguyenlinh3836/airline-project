@@ -2,9 +2,9 @@
 @section('title','Mua Vé')
 @section('css','css/Muave.css')
 @section('content')
-    <section class="buy-content">
+    <section class="parallax">
         <div class="container">
-            <div class="col-md-12 mt-3">
+            <div class="hh col-md-12 mt-3">
                 <h2 class="text-center">Chọn chuyến bay</h2>
                 <div class = "content-table">
                     <div class="content">

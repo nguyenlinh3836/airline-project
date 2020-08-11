@@ -11,7 +11,7 @@ body,html{
     background-color: #cccccc;
 }
 .box{
-    background-image: url('../img/default-bg.jpg');
+    background-image: url('../img/back-ve.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -22,7 +22,6 @@ body,html{
     height: 100%;
     min-height: 100vh;
     padding: 230px 0;
-
 }
 .box2{
     margin-bottom: 40px;
@@ -33,3 +32,14 @@ body,html{
     background-color: #ffffff;
     border: 1px solid #ffffff;
 }
+.parallax{
+    height: 100%;
+    background-image: url('../img/back-ve.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 60px;
+}.hh{
+    background-color: white;
+ }
