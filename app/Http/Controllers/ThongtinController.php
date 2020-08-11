@@ -51,6 +51,8 @@ class ThongtinController extends Controller
         $price = new LoaiVe();
         $price-> loaive = $request->get('radio');
         $price->save();
+        $priceID = $price->id;
+        return redirect(route('thongtin'),[id=> $priceID]);
     }
 
     /**
