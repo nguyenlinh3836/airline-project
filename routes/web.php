@@ -23,3 +23,5 @@ Route::get('Uudai','HomeController@uudai');
 Route::get('thongtin','HomeController@thongtin');
 Route::get('ve','HomeController@ve');
 Route::get('Muave','HomeController@muave');
+Route::get('chuyenbay','HomeController@chuyenbay');
+

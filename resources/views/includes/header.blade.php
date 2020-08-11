@@ -12,7 +12,7 @@
                     <a class="nav-link" href="/">Trang chủ</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="Muave">Đặt mua vé </a>
+                    <a class="nav-link" href="chuyenbay">Đặt mua vé </a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="trangthai">Thông tin hành trình</a>

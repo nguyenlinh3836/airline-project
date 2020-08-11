@@ -35,5 +35,8 @@ class HomeController extends Controller
     {
         return view('Muave');
     }
-
+    public function chuyenbay()
+    {
+        return view('chuyenbay');
+    }
 }
