@@ -22,7 +22,6 @@
                                     </tr>
                                     </thead>
                                     <tbody>
-
                                     <tr>
                                         <th scope="row">VN504</th>
                                         <td>
