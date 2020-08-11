@@ -23,17 +23,17 @@ class HomeController extends Controller
     {
         return view('Gioithieu');
     }
-    public function muave()
-    {
-        return view('Muave');
-    }
-    public function ve()
+      public function ve()
     {
         return view('ve');
     }
     public function thongtin()
     {
         return view('thongtin');
+    }
+    public function muave()
+    {
+        return view('Muave');
     }
 
 }

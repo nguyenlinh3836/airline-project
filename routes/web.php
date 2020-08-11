@@ -16,11 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 });
-
-Route::get('Muave','HomeController@muave');
 Route::get('trangthai','HomeController@trangthai');
 Route::get('Uudai2','HomeController@uudai2');
 Route::get('Gioithieu','HomeController@gioithieu');
 Route::get('Uudai','HomeController@uudai');
 Route::get('thongtin','HomeController@thongtin');
 Route::get('ve','HomeController@ve');
+Route::get('Muave','HomeController@muave');
