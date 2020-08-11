@@ -58,7 +58,7 @@
                     <a class="btn-yellow" href="#">CHI TIẾT</a>
                 </div>
             </div>
-            <div ><a href="/" class="btn-deal">Xem tất cả các ưu đãi</a></div>
+            <div ><a href="/Uudai" class="btn-deal">Xem tất cả các ưu đãi</a></div>
         </div>
     </section>
 

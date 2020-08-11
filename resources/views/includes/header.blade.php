@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md bg-transparent">
+<nav class="navbar navbar-expand-md">
     <div class="container">
         <a class="navbar-brand" href="/">
             <img src="img/5f214561d2185.png"/>
@@ -12,13 +12,16 @@
                     <a class="nav-link" href="/">Trang chủ</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/Muave">Đặt mua vé </a>
+                    <a class="nav-link" href="Muave">Đặt mua vé </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="">Thông tin hành trình</a>
+                    <a class="nav-link" href="trangthai">Thông tin hành trình</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/Gioithieu">Về chúng tôi</a>
+                    <a class="nav-link" href="Uudai">Ưu đãi hành trình</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Gioithieu">Về chúng tôi</a>
                 </li>
             </ul>
         </div>

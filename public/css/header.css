@@ -1,5 +1,6 @@
 .navbar{
     box-shadow: 0px 0px 9px 3px rgba(41,41,41,.25);
+    background-color: white;
 }
 
 
@@ -74,7 +75,7 @@
 .footer-background{
     background-image: url("../img/footer-bamboo_ddce7f6f.png");
     background-position: 100% 0;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     clear: both;
 }
 .footer-content{
