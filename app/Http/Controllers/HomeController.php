@@ -6,10 +6,10 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
-    public function uudai()
-    {
-        return view('Uudai');
-    }
+  public function uudai()
+  {
+      return view('Uudai');
+  }
     public function uudai2()
     {
         return view('Uudai2');
@@ -35,8 +35,5 @@ class HomeController extends Controller
     {
         return view('thongtin');
     }
-    public function thanhtoan()
-    {
-        return view('thanhtoan');
-    }
+
 }
