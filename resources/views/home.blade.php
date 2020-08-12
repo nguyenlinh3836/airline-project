@@ -30,7 +30,7 @@
                         <a class="btn btn-primary col-md-3" href="chuyenbay" role="button"><i class="fas fa-ticket-alt"></i> Mua vé</a>
                         <a class="btn btn-primary col-md-3" href="#" role="button"><i class="fas fa-clipboard-list"></i> Quản lý đặt chỗ</a>
                         <a class="btn btn-primary col-md-3" href="/trangthai" role="button"><i class="fas fa-clock"></i> Trạng thái chuyến bay</a>
-                        <a class="btn btn-primary col-md-3" href="#" role="button"><i class="fas fa-calendar-times"></i> Hủy vé</a>
+                        <a class="btn btn-primary col-md-3" href="huyve" role="button"><i class="fas fa-calendar-times"></i> Hủy vé</a>
                     </div>
                 </div>
             </div>

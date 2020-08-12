@@ -14,14 +14,24 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    return view('Hanhkhach');
 });
 Route::get('trangthai','HomeController@trangthai');
 Route::get('Uudai2','HomeController@uudai2');
 Route::get('Gioithieu','HomeController@gioithieu');
 Route::get('Uudai','HomeController@uudai');
-Route::get('thongtin','HomeController@thongtin');
+Route::get('Hanhkhach','HomeController@hanhkhach');
 Route::get('ve','HomeController@ve');
 Route::get('Muave','HomeController@muave');
 Route::get('chuyenbay','HomeController@chuyenbay');
+Route::get('huyve','HomeController@huyve');
+
+Route::post('thongtin',[
+    'as'=>'hanhkhach',
+    'user'=>'ThongtinController@store'
+]);
+Route::post('thongtin',[
+    'as'=>'hanhkhach',
+    'user'=>'ThongtinController@create'
+]);
 

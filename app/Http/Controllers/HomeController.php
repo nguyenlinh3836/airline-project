@@ -27,9 +27,9 @@ class HomeController extends Controller
     {
         return view('ve');
     }
-    public function thongtin()
+    public function hanhkhach()
     {
-        return view('thongtin');
+        return view('Hanhkhach');
     }
     public function muave()
     {
@@ -38,5 +38,9 @@ class HomeController extends Controller
     public function chuyenbay()
     {
         return view('chuyenbay');
+    }
+    public function huyve()
+    {
+        return view('huyve');
     }
 }

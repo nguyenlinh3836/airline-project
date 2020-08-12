@@ -5,6 +5,7 @@ use App\Hanhkhach;
 use App\News;
 use App\LoaiVe;
 use Illuminate\Http\Request;
+use App\thongtin;
 
 class ThongtinController extends Controller
 {
@@ -37,12 +38,13 @@ class ThongtinController extends Controller
     public function store(Request $request)
     {
         $hanhkhach = new Hanhkhach();
+        $hanhkhach->danh_xung = $request->danh_xung;
         $hanhkhach->ho = $request->ho;
         $hanhkhach->ten = $request->ten;
         $hanhkhach->ngay_sinh= $request->ngay_sinh;
+        $hanhkhach->gioi_tinh= $request->gioi_tinh;
         $hanhkhach->sdt= $request->sdt;
         $hanhkhach->email = $request->email;
-        $hanhkhach->description = $request->description;
         $hanhkhach->save();
         return redirect()->action('thongtinController@create');
     }
