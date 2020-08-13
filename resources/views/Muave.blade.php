@@ -22,19 +22,20 @@
                                     </tr>
                                     </thead>
                                     <tbody>
+                                    @foreach($flights as $flight)
                                     <tr>
-                                        <th scope="row">VN504</th>
+                                        <th scope="row">{{$flight->id}}</th>
                                         <td>
                                             <div class="flight-from float-left">
-                                                <span class="time-from">5:30</span><br/>
-                                                Hà Nội
+                                                <span class="time-from">{{$flight->giodi}}</span><br/>
+                                                {{$flight->noidi}}
                                             </div>
                                             <span class="float-left"><i class="fas fa-plane m-2"></i></span>
                                             <div class="flight-to float-left">
-                                                <span class="time-to">7:40</span><br/>
-                                                Đà Lạt</div>
+                                                <span class="time-to">{{$flight->gioden}}</span><br/>
+                                                {{$flight->noiden}}</div>
                                         </td>
-                                        <td>2 tiếng 10 phút</td>
+                                        <td>{{$flight->thoigian}}</td>
                                         <td class="price-normal">
                                             <div class="form-group">
                                                 <div class="radio">
@@ -43,7 +44,7 @@
                                                         Chọn chuyến bay
                                                     </label>
                                                 </div>
-                                                <h5 class="flight-price">699,000 VND</h5>
+                                                <h5 class="flight-price">{{$flight->pho_thong}}</h5>
                                                 <span class="flight-seat">Chuyến bay này còn 5 chỗ</span>
                                             </div>
                                         </td>
@@ -55,77 +56,17 @@
                                                         Chọn chuyến bay
                                                     </label>
                                                 </div>
-                                                <h5 class="flight-price">1,699,000 VND</h5>
-                                                <span class="flight-seat">Chuyến bay này còn 5 chỗ</span>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    </tbody>
-
-                                </table>
-                            </div>
-                        </form>
-
-
-                        <form method="post">
-                            <div class="table-responsive table-bordered text-center">
-                                <table class="table">
-                                    <thead>
-                                    <tr>
-                                        <th scope="col">Mã số</th>
-                                        <th scope="col">Chuyến bay</th>
-                                        <th scope="col">Thời gian</th>
-                                        <th scope="col">Hạng phổ thông</th>
-                                        <th scope="col">Hạng thương gia</th>
-                                    </tr>
-                                    </thead>
-                                    <tbody>
-                                    @foreach()
-                                    <tr>
-                                        <th scope="row">{{$id}}</th>
-                                        <td>
-                                            <div class="flight-from float-left">
-                                                <span class="time-from">{{$giodi}}</span><br/>
-                                                {{$diemdi}}
-                                            </div>
-                                            <span class="float-left"><i class="fas fa-plane m-2"></i></span>
-                                            <div class="flight-to float-left">
-                                                <span class="time-to">{{$gioden}}</span><br/>
-                                                {{$diemden}}</div>
-                                        </td>
-                                        <td>{{$thoigian}}</td>
-                                        <td class="price-normal">
-                                            <div class="form-group">
-                                                <div class="radio">
-                                                    <label>
-                                                        <input type="radio" name="radio" value="phothong" required style="height: 18px; width: 18px;vertical-align: middle;" required>
-                                                        Chọn chuyến bay
-                                                    </label>
-                                                </div>
-                                                <h5 class="flight-price">{{$phothong}}</h5>
-                                                <span class="flight-seat">Chuyến bay này còn {{$soghe}} chỗ</span>
-                                            </div>
-                                        </td>
-                                        <td class="price-vip">
-                                            <div class="form-group">
-                                                <div class="radio">
-                                                    <label>
-                                                        <input type="radio" name="radio" value="thuonggia" required style="height: 18px; width: 18px;vertical-align: middle;" required>
-                                                        Chọn chuyến bay
-                                                    </label>
-                                                </div>
-                                                <h5 class="flight-price">{{$thuonggia}}</h5>
-                                                <span class="flight-seat">Chuyến bay này còn {{$soghe}} chỗ</span>
+                                                <h5 class="flight-price">{{$flight->thuong_gia}}</h5>
+                                                <span class="flight-seat">Chuyến bay này còn {{$flight->soghe}} chỗ</span>
                                             </div>
                                         </td>
                                     </tr>
                                     @endforeach
+
                                     </tbody>
                                 </table>
                             </div>
-                            <div class="col text-center">
-                                <button class="btn btn-primary" type="submit">Tiếp tục <i class="fas fa-angle-right"></i></button>
-                            </div>
+
                         </form>
                     </div>
                 </div>

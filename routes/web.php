@@ -20,8 +20,12 @@ Route::get('trangthai','HomeController@trangthai');
 Route::get('Uudai2','HomeController@uudai2');
 Route::get('Gioithieu','HomeController@gioithieu');
 Route::get('Uudai','HomeController@uudai');
-Route::get('thongtin','HomeController@thongtin');
+Route::get('thongtin','HomeController@store');
 Route::get('ve','HomeController@ve');
-Route::get('Muave','HomeController@muave');
+Route::get('Muave','ProjectController@search');
 Route::get('chuyenbay','HomeController@chuyenbay');
+Route::get('thanhtoan','HomeController@thanhtoan');
+
+
+
 

@@ -39,4 +39,8 @@ class HomeController extends Controller
     {
         return view('chuyenbay');
     }
+    public function thanhtoan()
+    {
+        return view('thanhtoan');
+    }
 }

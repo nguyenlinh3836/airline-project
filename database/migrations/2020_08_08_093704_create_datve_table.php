@@ -18,7 +18,8 @@ class CreateDatveTable extends Migration
             $table->integer('sove');
             $table->float('tongtien');
             $table->boolean('trangthai');
-            $table->unsignedBigInteger('hk_id');
+            $table->text('loaive');
+            $table->unsignedBigInteger('hk_id')->nullable();
             $table->foreign('hk_id')->references('id')->on('hanhkhach');
             $table->timestamps();
         });

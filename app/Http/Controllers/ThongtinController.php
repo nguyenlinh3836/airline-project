@@ -44,15 +44,14 @@ class ThongtinController extends Controller
         $hanhkhach->email = $request->email;
         $hanhkhach->description = $request->description;
         $hanhkhach->save();
-        return redirect()->action('thongtinController@create');
+        return redirect(route('thanhtoan'));
     }
 
     public function  storeprice(Request $request){
         $price = new LoaiVe();
         $price-> loaive = $request->get('radio');
         $price->save();
-        $priceID = $price->id;
-        return redirect(route('thongtin'),[id=> $priceID]);
+        return redirect(route('thongtin'));
     }
 
     /**

@@ -15,11 +15,11 @@ class CreateThongtinveTable extends Migration
     {
         Schema::create('thongtinve', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('chuyenbay_id');
+            $table->unsignedBigInteger('chuyenbay_id')->nullable();
             $table->foreign('chuyenbay_id')->references('id')->on('chuyenbay');
-            $table->unsignedBigInteger('hk_id');
+            $table->unsignedBigInteger('hk_id')->nullable();
             $table->foreign('hk_id')->references('id')->on('hanhkhach');
-            $table->unsignedBigInteger('datve_id');
+            $table->unsignedBigInteger('datve_id')->nullable();
             $table->foreign('datve_id')->references('id')->on('datve');
             $table->timestamps();
         });

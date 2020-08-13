@@ -21,9 +21,9 @@ class CreateChuyenbayTable extends Migration
             $table->time('giodi');
             $table->time('gioden');
             $table->text('thoigian');
-            $table->unsignedBigInteger('maybay_id');
+            $table->unsignedBigInteger('maybay_id')->nullable();
             $table->foreign('maybay_id')->references('id')->on('maybay');
-            $table->unsignedBigInteger('giave_id');
+            $table->unsignedBigInteger('giave_id')->nullable();
             $table->foreign('giave_id')->references('id')->on('giave');
             $table->timestamps();
         });
