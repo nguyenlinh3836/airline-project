@@ -14,8 +14,8 @@
                             <button  class="tablinks active">Thông tin cá nhân</button>
                         </div>
                         <div id="Thông tin cá nhân" class="tabcontent">
-                            <form class="row col-md-12" method="post" action="hanhkhach">
-                               <input type="hidden" name="token" value="{{csrf_token()}}">
+                            <form class="row col-md-12" method="post" action="/hanhkhachstore">
+                                @csrf
                                 <div class="col-md-4">
                                     <h3><span>Thông tin cá nhân</span></h3>
                                     <p>Qúy khách nhập đúng thông tin trong hộ chiếu/Chứng minh nhân dân/
@@ -27,7 +27,7 @@
                                             <span>Danh xưng</span>
                                         </p>
                                         <div class="col-md-8">
-                                            <select class="custom-select my-1 mr-sm-2" id="danh_xung" name="danh_xung">
+                                            <select class="custom-select my-1 mr-sm-2" id="danhxung" name="danhxung">
                                                 <option selected>Chọn</option><option  value="1">Cô/Chị</option>
                                                 <option value="2">Ông</option>
                                                 <option value="3">Bà</option>
@@ -95,7 +95,7 @@
 
                                 </div>
                                 <div class="col-md-12">
-                                    <input class="btn btn-primary" type="submit"  value="ĐĂNG KÍ">
+                                    <input class="btn btn-primary" type="submit" value="Tiếp tục">
                                 </div>
                             </form>
                         </div>

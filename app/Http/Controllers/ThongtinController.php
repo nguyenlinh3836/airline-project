@@ -24,10 +24,6 @@ class ThongtinController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
-    {
-        return view('thongtin');
-    }
 
     /**
      * Store a newly created resource in storage.
@@ -38,22 +34,22 @@ class ThongtinController extends Controller
     public function store(Request $request)
     {
         $hanhkhach = new Hanhkhach();
-        $hanhkhach->danh_xung = $request->danh_xung;
-        $hanhkhach->ho = $request->ho;
-        $hanhkhach->ten = $request->ten;
-        $hanhkhach->ngay_sinh= $request->ngay_sinh;
-        $hanhkhach->gioi_tinh= $request->gioi_tinh;
-        $hanhkhach->sdt= $request->sdt;
-        $hanhkhach->email = $request->email;
+        $hanhkhach->danhxung = $request->get('danhxung');
+        $hanhkhach->ho = $request->get('ho');
+        $hanhkhach->ten = $request->get('ten');
+        $hanhkhach->ngay_sinh= $request->get('ngay_sinh');
+        $hanhkhach->gioi_tinh= $request->get('gioi_tinh');
+        $hanhkhach->sdt= $request->get('sdt');
+        $hanhkhach->email = $request->get('email');
         $hanhkhach->save();
-        return redirect(route('thanhtoan'));
+        return redirect('thanhtoan');
     }
 
     public function  storeprice(Request $request){
         $price = new LoaiVe();
         $price-> tongtien = $request->get('radio');
         $price->save();
-        return redirect('/thongtin');
+        return redirect('Hanhkhach');
     }
 
     /**

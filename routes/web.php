@@ -21,11 +21,14 @@ Route::get('Uudai2','HomeController@uudai2');
 Route::get('Gioithieu','HomeController@gioithieu');
 Route::get('Uudai','HomeController@uudai');
 Route::post('/storeprice','ThongtinController@storeprice');
-Route::get('/thongtin','HomeController@thongtin');
 Route::get('ve','HomeController@ve');
 Route::get('Muave','ProjectController@search');
 Route::get('chuyenbay','HomeController@chuyenbay');
 Route::get('thanhtoan','HomeController@thanhtoan');
+Route::post('/hanhkhachstore','ThongtinController@store');
+Route::get('Hanhkhach','HomeController@Hanhkhach');
+
+
 
 
 

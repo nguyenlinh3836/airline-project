@@ -15,20 +15,18 @@ class CreateHanhkhachTable extends Migration
     {
         Schema::create('hanhkhach', function (Blueprint $table) {
             $table->id();
+            $table->text('danhxung');
             $table->text('ten');
             $table->text('ho');
-            $table->text('dia_chi');
             $table->text('sdt');
             $table->text('email');
             $table->text('gioi_tinh');
             $table->date('ngay_sinh');
-            $table->integer('tuoi');
             $table->unsignedBigInteger('the_id')->nullable();
             $table->foreign('the_id')->references('id')->on('the');
             $table->timestamps();
         });
     }
-
     /**
      * Reverse the migrations.
      *

@@ -34,8 +34,6 @@
                                         <th>Hành trình</th>
                                         <th>Ngày đi</th>
                                         <th>Tổng tiền</th>
-                                        <th>Chặng đã sử dụng</th>
-                                        <th>Chặng yêu cầu hoàn</th>
                                     </tr>
                                     </thead>
                                     <tbody>
@@ -45,8 +43,6 @@
                                         <td>Hà Nội - HCM</td>
                                         <td>17/7/2020</td>
                                         <td>19000</td>
-                                        <td>Không</td>
-                                        <td>Không</td>
                                     </tr>
                                     </tbody>
                                 </table>
