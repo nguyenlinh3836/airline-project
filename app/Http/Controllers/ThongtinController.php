@@ -51,9 +51,9 @@ class ThongtinController extends Controller
 
     public function  storeprice(Request $request){
         $price = new LoaiVe();
-        $price-> loaive = $request->get('radio');
+        $price-> tongtien = $request->get('radio');
         $price->save();
-        return redirect(route('thongtin'));
+        return redirect('/thongtin');
     }
 
     /**

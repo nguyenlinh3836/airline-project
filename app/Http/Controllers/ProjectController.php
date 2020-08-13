@@ -91,7 +91,5 @@ class ProjectController extends Controller
             ->whereDate('ngaykhoihanh',$request->ngaydi)
             ->get();
         return view('Muave',compact('flights'));
-
-
     }
 }

@@ -9,7 +9,8 @@
                 <div class = "content-table">
                     <div class="content">
                         <h4>Chọn chuyến bay đi ngày 01/08/2020</h4>
-                        <form method="post">
+                        <form method="post" action="/storeprice">
+                            @csrf
                             <div class="table-responsive table-bordered text-center">
                                 <table class="table">
                                     <thead>
@@ -40,7 +41,7 @@
                                             <div class="form-group">
                                                 <div class="radio">
                                                     <label>
-                                                        <input type="radio" name="choose" required style="height: 18px; width: 18px;vertical-align: middle;">
+                                                        <input type="radio" name="radio" value="{{$flight->pho_thong}}" required style="height: 18px; width: 18px;vertical-align: middle;">
                                                         Chọn chuyến bay
                                                     </label>
                                                 </div>
@@ -52,7 +53,7 @@
                                             <div class="form-group">
                                                 <div class="radio">
                                                     <label>
-                                                        <input type="radio" name="choose" required style="height: 18px; width: 18px;vertical-align: middle;">
+                                                        <input type="radio" name="radio" value="{{$flight->thuong_gia}}" required style="height: 18px; width: 18px;vertical-align: middle;">
                                                         Chọn chuyến bay
                                                     </label>
                                                 </div>
@@ -61,13 +62,12 @@
                                             </div>
                                         </td>
                                     </tr>
-                                    @endforeach
-
                                     </tbody>
                                 </table>
+                                <input class="btn btn-primary" type="submit" value="Submit">
                             </div>
-
                         </form>
+                        @endforeach
                     </div>
                 </div>
             </div>

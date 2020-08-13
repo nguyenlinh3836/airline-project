@@ -15,10 +15,7 @@ class CreateDatveTable extends Migration
     {
         Schema::create('datve', function (Blueprint $table) {
             $table->id();
-            $table->integer('sove');
             $table->float('tongtien');
-            $table->boolean('trangthai');
-            $table->text('loaive');
             $table->unsignedBigInteger('hk_id')->nullable();
             $table->foreign('hk_id')->references('id')->on('hanhkhach');
             $table->timestamps();
