@@ -2,8 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Flight;
 use Illuminate\Http\Request;
-
+use DB;
 class ProjectController extends Controller
 {
     /**
@@ -81,13 +82,14 @@ class ProjectController extends Controller
     {
         //
     }
-    public function search(){
-//        $search = request('search');
-//        $id = DB::table('thongtinve')
-//            ->join('chuyenbay','thongtinve.chuyenbay_id','=','chuyenbay.id')
-//            ->join('hanhkhach','thongtinve.hk_id','=','hanhkhach.id')
-//            ->join('datve','thongtinve.datve_id','=','datve.id')
-//            ->where('thongtinve.id','LIKE','%'.$search.'%')
-//            ->get();
+    public function search(Request $request){
+        $flights = DB::table('chuyenbay')
+            ->join('giave','chuyenbay.giave_id','=','giave.id')
+            ->join('maybay','chuyenbay.maybay_id','=','maybay.id')
+            ->where('noidi','LIKE',$request->diemdi)
+            ->where('noiden','LIKE',$request->diemden)
+            ->whereDate('ngaykhoihanh',$request->ngaydi)
+            ->get();
+        return view('Muave',compact('flights'));
     }
 }

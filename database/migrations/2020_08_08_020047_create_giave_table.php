@@ -17,7 +17,6 @@ class CreateGiaveTable extends Migration
             $table->id();
             $table->float('pho_thong');
             $table->float('thuong_gia');
-            $table->text('loaive');
             $table->timestamps();
         });
     }

@@ -150,3 +150,6 @@
 .booking-form .submit-btn:focus {
     opacity: 0.8;
 }
+h4 {
+    color: white;
+}

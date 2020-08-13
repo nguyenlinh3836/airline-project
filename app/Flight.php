@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class LoaiVe extends Model
+class Flight extends Model
 {
-    protected $table = "datve";
+    //
 }

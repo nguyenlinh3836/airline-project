@@ -23,7 +23,7 @@ class CreateHanhkhachTable extends Migration
             $table->text('gioi_tinh');
             $table->date('ngay_sinh');
             $table->integer('tuoi');
-            $table->unsignedBigInteger('the_id');
+            $table->unsignedBigInteger('the_id')->nullable();
             $table->foreign('the_id')->references('id')->on('the');
             $table->timestamps();
         });
