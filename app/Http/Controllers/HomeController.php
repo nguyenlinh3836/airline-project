@@ -46,4 +46,7 @@ class HomeController extends Controller
     public function huyve(){
       return view('huyve');
     }
+    public function thanhtoanhoantat(){
+           return view('thanhtoanhoantat');
+    }
 }
