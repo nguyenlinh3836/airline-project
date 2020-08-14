@@ -14,7 +14,7 @@
                     </div>
                     <hr class="my-2">
                     <div class="col-12 box3 text-center ">
-                        <button type="submit" class="btn btn-primary btn-lg">Back you homepage</button>
+                        <button type="submit" href="/" class="btn btn-primary btn-lg">Back you homepage</button>
                     </div>
                 </div>
             </div>

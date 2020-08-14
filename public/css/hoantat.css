@@ -1,5 +1,5 @@
 .box{
-    background-image: url('../img/back-ve.jpg');
+    background-image:url('../img/back-ve.jpg');
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -16,7 +16,6 @@
     opacity: 0.9;
     z-index: 2;
     margin: 5em 0;
-
 }
 .box1{
     padding-top: 3em;
