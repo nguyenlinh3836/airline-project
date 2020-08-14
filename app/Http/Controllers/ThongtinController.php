@@ -60,7 +60,9 @@ class ThongtinController extends Controller
      */
     public function show($id)
     {
-        //
+        $post = Post::findOrFail($id);
+
+        return view('huyve.post', compact('post'));
     }
 
     /**
@@ -94,6 +96,9 @@ class ThongtinController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $post = Post::findOrFail($id);
+        $post->delete();
+
+        return view('huyve.post', compact('post'));
     }
 }
