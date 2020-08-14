@@ -17,7 +17,7 @@
     background-position: center;
 }
 .booking-form {
-    background: rgba(0, 0, 0, 0.7);
+    background-color: white;
     padding: 40px;
     border-radius: 6px;
     width: 100%;
@@ -35,8 +35,8 @@
     font-weight: 400;
     -webkit-box-shadow: none;
     box-shadow: none;
-    border-radius: 40px;
     padding: 0px 25px;
+    border: 2px solid #d9a40d;
 }
 .booking-form .form-control::-webkit-input-placeholder {
     color: rgba(82, 82, 84, 0.4);
@@ -75,14 +75,14 @@
 }
 .booking-form .form-label {
     display: block;
-    margin-left: 20px;
+    margin-left: 2px;
     margin-bottom: 5px;
-    font-weight: 400;
+    font-weight: bold;
     text-transform: uppercase;
     line-height: 24px;
     height: 24px;
-    font-size: 12px;
-    color: #fff;
+    font-size: 14px;
+    color: hsl(44,86%,46%);
 }
 .booking-form .form-checkbox input {
     position: absolute !important;
@@ -94,7 +94,8 @@
     padding-top: 4px;
     padding-left: 30px;
     font-weight: 400;
-    color: #fff;
+
+
 }
 .booking-form .form-checkbox label+label {
     margin-left: 15px;
@@ -105,8 +106,8 @@
     top: 4px;
     width: 20px;
     height: 20px;
-    background: #fff;
     border-radius: 50%;
+    border: 1px solid hsl(44,86%,46%);
 }
 .booking-form .form-checkbox input+span:after {
     content: '';
@@ -151,5 +152,9 @@
     opacity: 0.8;
 }
 h4 {
-    color: white;
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color:hsl(44,86%,46%) ;
 }
+

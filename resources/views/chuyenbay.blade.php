@@ -5,7 +5,6 @@
     <div id="booking" class="section">
         <div class="section-center">
             <div class="container">
-
                 <form method="get" action="/Muave" class="booking-form">
                     {{ csrf_field() }}
                     <h4>Tìm chuyến bay</h4>
@@ -22,9 +21,9 @@
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-4">
                             <div class="form-group">
-                                <span class="form-label">Điểm đi</span>
+                                <span class="form-label"><i class="fas fa-map-marker-alt"></i> Điểm đi</span>
                                 <select class="form-control" type="date" name="diemdi" id="diemdi">
                                     <option value="Hà Nội">Hà Nội</option>
                                     <option>Đà Lạt</option>
@@ -33,9 +32,9 @@
                                 </select>
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-4">
                             <div class="form-group">
-                                <span class="form-label">Điểm đến</span>
+                                <span class="form-label"><i class="fas fa-map-marker-alt"></i> Điểm đến</span>
                                 <select class="form-control" type="date" required name="diemden" id="diemden">
                                     <option>Hà Nội</option>
                                     <option value="Đà Nẵng">Đà Nẵng</option>
@@ -44,26 +43,10 @@
                                 </select>
                             </div>
                         </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-4">
                             <div class="form-group">
-                                <span class="form-label">Ngày đi</span>
+                                <span class="form-label"><i class="fas fa-calendar-day"></i> Ngày đi</span>
                                 <input class="form-control" type="date" required name="ngaydi" id="ngaydi">
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="form-group">
-                                <span class="form-label">Số Người đi</span>
-                                <select class="form-control">
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5</option>
-                                    <option>6</option>
-                                </select>
-                                <span class="select-arrow"></span>
                             </div>
                         </div>
                     </div>

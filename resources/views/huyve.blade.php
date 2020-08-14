@@ -47,7 +47,7 @@
                                     </tbody>
                                 </table>
                                 <div class="col-md-12">
-                                    <button class="submit-btn">HỦY VÉ</button>
+                                    <button class="btn submit-btn" type="submit">HỦY VÉ</button>
                                 </div>
                             </form>
                     </div>
