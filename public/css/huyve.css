@@ -52,7 +52,7 @@ table {
     color: #fff;
     background-color: hsl(44,86%,46%);
     font-weight: 400;
-    height: 50px;
+
     font-size: 14px;
     border: none;
     width: 100%;
@@ -64,6 +64,7 @@ table {
     padding-top: 10px;
     float: right;
     margin-right: 30px;
+    text-align: center;
 }
 .search {
     width: 100%;

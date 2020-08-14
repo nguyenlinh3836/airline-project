@@ -27,7 +27,7 @@ Route::get('chuyenbay','HomeController@chuyenbay');
 Route::get('thanhtoan','HomeController@thanhtoan');
 Route::post('/hanhkhachstore','ThongtinController@store');
 Route::get('Hanhkhach','HomeController@Hanhkhach');
-
+Route::get('huyve','HomeController@huyve');
 
 
 
