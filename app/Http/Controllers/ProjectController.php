@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Flight;
+use App\the;
 use Illuminate\Http\Request;
 use DB;
 class ProjectController extends Controller
@@ -35,7 +36,13 @@ class ProjectController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $the = new the();
+        $the -> loai_the = $request->get('radio');
+        $the ->ma_the = $request->get('sothe');
+        $the -> ten = $request->get('ten');
+        $the->hsd = $request->get('hsd');
+        $the->save();
+        return redirect('hoanthanh');
     }
 
     /**
