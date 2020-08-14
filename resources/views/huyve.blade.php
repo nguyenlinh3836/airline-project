@@ -18,8 +18,8 @@
                                             <span>Mã số vé</span>
                                         </div>
                                         <div class="search">
-                                            <input type="text" class="searchTerm" placeholder="Nhập mã số vé">
-                                            <button type="submit" class="searchButton">
+                                            <input type="text" class="searchTerm" id="ma so"name="ma so" placeholder="Nhập mã số vé">
+                                            <button type="submit" class="searchButton" id="">
                                                 <i class="fa fa-search"></i>
                                             </button>
                                         </div>
