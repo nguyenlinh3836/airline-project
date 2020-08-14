@@ -15,7 +15,6 @@ class CreateThongtinveTable extends Migration
     {
         Schema::create('thongtinve', function (Blueprint $table) {
             $table->id();
-            $table->text('loaive');
             $table->unsignedBigInteger('chuyenbay_id')->nullable();
             $table->foreign('chuyenbay_id')->references('id')->on('chuyenbay');
             $table->unsignedBigInteger('hk_id')->nullable();
