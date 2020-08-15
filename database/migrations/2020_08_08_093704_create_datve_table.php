@@ -15,7 +15,7 @@ class CreateDatveTable extends Migration
     {
         Schema::create('datve', function (Blueprint $table) {
             $table->id();
-            $table->float('tongtien');
+            $table->integer('tongtien');
             $table->unsignedBigInteger('hk_id')->nullable();
             $table->foreign('hk_id')->references('id')->on('hanhkhach');
             $table->timestamps();

@@ -4,18 +4,19 @@
 @section('content')
     <section class="parallax">
         <div class="container">
+            @if(count($flights)>0)
             <div class="hh col-md-12 mt-3">
                 <h2 class="text-center">Chọn chuyến bay</h2>
                 <div class = "content-table">
                     <div class="content">
-                        <h4>Chọn chuyến bay đi ngày 01/08/2020</h4>
+                        <h4>Chọn chuyến bay đi</h4>
                         <form method="post" action="/storeprice">
                             @csrf
                             <div class="table-responsive table-bordered text-center">
                                 <table class="table">
                                     <thead>
                                     <tr>
-                                        <th scope="col">Mã số</th>
+                                        <th scope="col">Máy bay</th>
                                         <th scope="col">Chuyến bay</th>
                                         <th scope="col">Thời gian</th>
                                         <th scope="col">Hạng phổ thông</th>
@@ -25,7 +26,7 @@
                                     <tbody>
                                     @foreach($flights as $flight)
                                     <tr>
-                                        <th scope="row">{{$flight->id}}</th>
+                                        <th scope="row">{{$flight->ten}}</th>
                                         <td>
                                             <div class="flight-from float-left">
                                                 <span class="time-from">{{$flight->giodi}}</span><br/>
@@ -62,13 +63,22 @@
                                             </div>
                                         </td>
                                     </tr>
+                                    @endforeach
                                     </tbody>
                                 </table>
                                 <input class="btn btn-primary" type="submit" value="Tiếp tục">
                             </div>
-
                         </form>
-                        @endforeach
+                        @else
+                            <div class="buy-none">
+                                <div class="none-content">
+                                    <div class="text-center">
+                                        <h1 class="text-center">Không tìm thấy chuyến bay nào</h1>
+                                        <a class="btn-search" href="chuyenbay" role="button">Tìm ngày khác</a>
+                                    </div>
+                                </div>
+                            </div>
+                            @endif
                     </div>
                 </div>
             </div>

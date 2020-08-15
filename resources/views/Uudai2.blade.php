@@ -11,16 +11,16 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="card mb-4 box-shadow">
-                            <a href="#"> <img class="card-img-top" src="img/danang.jpg"alt="Card image cap" ></a>
+                            <a href="#"> <img class="card-img-top" src="img/BMT.jpg"alt="Card image cap" ></a>
                             <div class="card-body">
-                                <h5> <a href="#">Ưu đãi hành trình từ Buôn Ma Thuột đi Đà Nẵng</a> </h5>
-                                <p class="card-text">Giá ưu đãi: chỉ từ 689.000 VND/một chiều (đã bao gồm thuế, phí).</p>
+                                <h5> <a href="#">Ưu đãi đặc biệt hành trình từ Thanh Hóa đi Buôn Ma Thuột</a> </h5>
+                                <p class="card-text">Giá ưu đãi: chỉ từ 689.000 VND/một chiều (đã bao gồm thuế, phí). </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="card mb-4 box-shadow">
-                            <a href="#"><img class="card-img-top" src="img/danang.jpg"alt="Card image cap"></a>
+                            <a href="#"><img class="card-img-top" src="img/danan.jpg"alt="Card image cap"></a>
                             <div class="card-body">
                                 <h5><a href="#"> Ưu đãi đặc biệt đặc biệt hành trình từ ĐÀ LẠT đi Vinh</a></h5>
                                 <p class="card-text">Giá ưu đãi: chỉ từ 689.000 VND/chiều (đã bao gồm thuế, phí).</p>
@@ -29,7 +29,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="card mb-4 box-shadow">
-                            <a href="#"><img class="card-img-top" src="img/danang.jpg"alt="Card image cap" ></a>
+                            <a href="#"><img class="card-img-top" src="img/nhatrang.jpg"alt="Card image cap" ></a>
                             <div class="card-body">
                                 <h5> <a href="#"> Ưu đãi đặc biệt hành trình từ Hải Phòng đi Nha Trang</a></h5>
                                 <p class="card-text">Giá ưu đãi: chỉ từ 689.000 VND/một chiều (đã bao gồm thuế, phí).</p>
@@ -40,28 +40,28 @@
 
                     <div class="col-md-4">
                         <div class="card mb-4 box-shadow">
-                            <a href="#"><img class="card-img-top" src="img/danang.jpg"alt="Card image cap" ></a>
+                            <a href="#"><img class="card-img-top" src="img/PhuQuoc.jpg" alt="Card image cap" ></a>
                             <div class="card-body">
-                                <h5> <a href="#"> Ưu Đãi giá vé từ Hà Nội Đi Sydney</a></h5>
-                                <p class="card-text">Giá vé từ Hà Nội đi Sydney giá chỉ từ 624 USD (gồm thuế, phí).</p>
+                                <h5> <a href="#">Ưu đãi vé máy bay Vietnam Airlines từ Hà Nội đi Phú Quốc</a></h5>
+                                <p class="card-text">Giá ưu đãi: chỉ từ 689.000 VND/một chiều (đã bao gồm thuế, phí). </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="card mb-4 box-shadow">
-                            <a href="#"><img class="card-img-top" src="img/danang.jpg"alt="Card image cap"></a>
+                            <a href="#"><img class="card-img-top" src="img/dalat.jpg"alt="Card image cap"></a>
                             <div class="card-body">
-                                <h5><a href="#"> Ưu Đãi Từ Tp. Hồ Chí Minh Đi Sydney</a></h5>
-                                <p class="card-text">Giá vé từ Tp. Hồ Chí Minh đi Sydney giá chỉ từ 549 USD (gồm thuế, phí).</p>
+                                <h5><a href="#"> Ưu đãi giá vé từ Hà Nội đi Đà Lạt</a></h5>
+                                <p class="card-text">Giá ưu đãi: chỉ từ 689.000 VND/một chiều (đã bao gồm thuế, phí). </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="card mb-4 box-shadow">
-                            <a href="#"><img class="card-img-top" src="img/danang.jpg"alt="Card image cap" ></a>
+                            <a href="#"><img class="card-img-top" src="img/tải xuống.jpg"alt="Card image cap" ></a>
                             <div class="card-body">
-                                <h5> <a href="#"> Ưu đãi vé máy bay từ Hà Nội đi Melbourne</a></h5>
-                                <p class="card-text">Giá vé từ Hà Nội đi Melbourne giá chỉ từ 624 USD/Khứ hồi (gồm thuế, phí).</p>
+                                <h5> <a href="#">Ưu đãi vé máy bay Vietnam Airlines từ Hà Nội đi Chu Lai</a></h5>
+                                <p class="card-text">Giá ưu đãi: chỉ từ 689.000 VND/một chiều (đã bao gồm thuế, phí). .</p>
                             </div>
                         </div>
                     </div>
@@ -69,57 +69,57 @@
 
                     <div class="col-md-4">
                         <div class="card mb-4 box-shadow">
-                            <a href="#"> <img class="card-img-top" src="img/danang.jpg"alt="Card image cap" ></a>
+                            <a href="#"> <img class="card-img-top" src="img/cantho.jpg"alt="Card image cap" ></a>
                             <div class="card-body">
-                                <h5><a href="#"> Vé máy bay giá đặc biệt từ Hà Nội đi Yangon</a></h5>
-                                <p class="card-text">Ưu đãi hấp dẫn với giá chỉ từ 10 USD/ khứ hồi (chưa bao gồm thuế, phí).</p>
+                                <h5><a href="#">Ưu đãi vé máy bay Vietnam Airlines từ Đà Nẵng đi Cần Thơ</a></h5>
+                                <p class="card-text">Giá ưu đãi: chỉ từ 689.000 VND/một chiều (đã bao gồm thuế, phí). </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="card mb-4 box-shadow">
-                            <a href="#"><img class="card-img-top" src="img/danang.jpg"alt="Card image cap" ></a>
+                            <a href="#"><img class="card-img-top" src="img/TPHCM.jpg"alt="Card image cap" ></a>
                             <div class="card-body">
-                                <h5> <a href="#"> Ưu Đãi hành trình Từ Tp. Hồ Chí Minh đi Singapore</a></h5>
-                                <p class="card-text">Giá vé hấp dẫn chỉ từ 60 USD/ khứ hồi (chưa bao gồm thuế, phí).</p>
+                                <h5> <a href="#">Ưu đãi vé từ Đồng Hới đi Tp. Hồ Chí Minh</a></h5>
+                                <p class="card-text">Giá ưu đãi: chỉ từ 689.000 VND/một chiều (đã bao gồm thuế, phí). </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="card mb-4 box-shadow">
-                            <a href="#"> <img class="card-img-top" src="img/danang.jpg" alt="Card image cap"></a>
+                            <a href="#"> <img class="card-img-top" src="img/TPHCM.jpg" alt="Card image cap"></a>
                             <div class="card-body">
-                                <h5><a href="#"> Ưu Đãi Đặc Biệt hành trình Từ Đà Nẵng đi Bangkok</a></h5>
-                                <p class="card-text">Giá vé hấp dẫn chỉ từ 30 USD/ khứ hồi (chưa bao gồm thuế, phí).</p>
+                                <h5><a href="#">Ưu đãi vé máy bay Vietnam Airlines từ Đà Nẵng đi Vân Đồn</a></h5>
+                                <p class="card-text">Giá ưu đãi: chỉ từ 689.000 VND/một chiều (đã bao gồm thuế, phí). </p>
                             </div>
                         </div>
                     </div>
 
 
-                    <div class="col-md-4">
-                        <div class="card mb-4 box-shadow">
-                            <a href="#"><img class="card-img-top" src="img/danang.jpg"alt="Card image cap" ></a>
-                            <div class="card-body">
-                                <h5> <a href="#">  Giá Vé Đặc Biệt Từ Tp. Hồ Chí Minh Đi Frankfurt, Đức</a></h5>
-                                <p class="card-text">Tận hưởng hành trình với mức giá ưu đãi chỉ từ 709USD (gồm thuế, phí).</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 box-shadow">
-                            <a href="#"> <img class="card-img-top" src="img/danang.jpg"alt="Card image cap" ></a>
-                            <div class="card-body">
-                                <h5 ><a href="#"> Giá vé máy bay đặc biệt từ Hà Nội đi Frankfurt</a></h5>
-                                <p class="card-text">Tận hưởng hành trình với mức giá ưu đãi chỉ từ 779USD (gồm thuế, phí)</p>
-                            </div>
-                        </div>
-                    </div>
                     <div class="col-md-4">
                         <div class="card mb-4 box-shadow">
                             <a href="#"><img class="card-img-top" src="img/danang.jpg"alt="Card image cap" ></a>
                             <div class="card-body">
-                                <h5> <a href="#"> Giá vé cho hành trình từ Tp. Hồ Chí Minh Đi Paris, Pháp</a></h5>
-                                <p class="card-text">Dịch vụ chất lượng cao với mức giá chỉ từ 659 USD/ Khứ hồi (gồm thuế, phí)</p>
+                                <h5> <a href="#"> Ưu đãi vé máy bay Vietnam Airlines từ Đà Nẵng đi Hải Phòng</a></h5>
+                                <p class="card-text">Giá ưu đãi: chỉ từ 689.000 VND/một chiều (đã bao gồm thuế, phí). </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <a href="#"> <img class="card-img-top" src="img/hanoi.jpg"alt="Card image cap" ></a>
+                            <div class="card-body">
+                                <h5 ><a href="#">Ưu đãi vé máy bay Vietnam Airlines từ Cần Thơ đi Hà Nội</a></h5>
+                                <p class="card-text">Giá ưu đãi: chỉ từ 689.000 VND/một chiều (đã bao gồm thuế, phí). </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4 box-shadow">
+                            <a href="#"><img class="card-img-top" src="img/hanoi.jpg"alt="Card image cap" ></a>
+                            <div class="card-body">
+                                <h5> <a href="#">Giá hấp dẫn từ Buôn Ma Thuột đi Hà Nội</a></h5>
+                                <p class="card-text">Giá ưu đãi: chỉ từ 689.000 VND/một chiều (đã bao gồm thuế, phí). </p>
                             </div>
                         </div>
                     </div>
@@ -127,28 +127,28 @@
 
                     <div class="col-md-4">
                         <div class="card mb-4 box-shadow">
-                            <a href="#"><img class="card-img-top" src="img/danang.jpg" alt="Card image cap"></a>
+                            <a href="#"><img class="card-img-top" src="img/condao.jpg" alt="Card image cap"></a>
                             <div class="card-body">
-                                <h5 > <a href="#"> Ưu đãi giá vé máy bay từ Hà Nội đi Seoul</a></h5>
-                                <p class="card-text">Giá ưu đãi chỉ từ 330 USD/ khứ hồi (bao gồm thuế, phí)</p>
+                                <h5 > <a href="#">Ưu đãi vé máy bay Vietnam Airlines từ Hà Nội đi Côn Đảo</a></h5>
+                                <p class="card-text">Giá ưu đãi: chỉ từ 689.000 VND/một chiều (đã bao gồm thuế, phí). </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 box-shadow">
                         <div class="card mb-4 box-shadow">
-                            <a href="#"><img  class="card-img-top" src="img/danang.jpg" alt="Card image cap"></a>
+                            <a href="#"><img  class="card-img-top" src="img/tải xuống (1).jpg" alt="Card image cap"></a>
                             <div class="card-body">
-                                <h5><a href="#"> Ưu đãi giá vé máy bay từ Tp. Hồ Chí Minh Đi Seoul</a></h5>
-                                <p class="card-text">Giá ưu đãi chỉ từ 274 USD/ khứ hồi (bao gồm thuế, phí)</p>
+                                <h5><a href="#">Ưu đãi đặc biệt hành trình từ Vinh đi Buôn Ma Thuột</a></h5>
+                                <p class="card-text">Giá ưu đãi: chỉ từ 689.000 VND/một chiều (đã bao gồm thuế, phí). </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
                         <div class="card mb-4 box-shadow">
-                            <a href="#"> <img class="card-img-top" src="img/danang.jpg"alt="Card image cap" ></a>
+                            <a href="#"> <img class="card-img-top" src="img/TPHCM.jpg"alt="Card image cap" ></a>
                             <div class="card-body">
-                                <h5><a href="#"> Ưu Đãi Đặc Biệt Cho Hành Trình Từ Đà Nẵng đi Osaka</a></h5>
-                                <p class="card-text">Giá ưu đãi chỉ từ 180 USD/ khứ hồi (bao gồm thuế, phí)</p>
+                                <h5><a href="#"> Ưu đãi đặc biệt hành trình từ Tp Hồ Chí Minh đi Tuy Hòa</a></h5>
+                                <p class="card-text">Giá ưu đãi: chỉ từ 689.000 VND/một chiều (đã bao gồm thuế, phí). </p>
                             </div>
                         </div>
                     </div>
