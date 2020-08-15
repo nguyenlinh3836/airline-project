@@ -26,9 +26,10 @@
                                 <span class="form-label"><i class="fas fa-map-marker-alt"></i> Điểm đi</span>
                                 <select class="form-control" type="date" name="diemdi" id="diemdi">
                                     <option value="Hà Nội">Hà Nội</option>
-                                    <option>Đà Lạt</option>
-                                    <option>Phú Quốc</option>
-                                    <option>Đồng Hới</option>
+                                    <option value="Đà Lạt">Đà Lạt</option>
+                                    <option value="Phú Quốc">Phú Quốc</option>
+                                    <option value="Cà Mau">Cà Mau</option>
+                                    <option value="TP Hồ Chí Minh">TP Hồ Chí Minh</option>
                                 </select>
                             </div>
                         </div>
@@ -36,10 +37,10 @@
                             <div class="form-group">
                                 <span class="form-label"><i class="fas fa-map-marker-alt"></i> Điểm đến</span>
                                 <select class="form-control" type="date" required name="diemden" id="diemden">
-                                    <option>Hà Nội</option>
+                                    <option value="Hà Nội">Hà Nội</option>
                                     <option value="Đà Nẵng">Đà Nẵng</option>
-                                    <option>Phú Quốc</option>
-                                    <option>Đồng Hới</option>
+                                    <option value="Phú Quốc">Phú Quốc</option>
+                                    <option value="TP Hồ Chí Minh">TP Hồ Chí Minh</option>
                                 </select>
                             </div>
                         </div>

@@ -31,6 +31,8 @@ Route::get('Hanhkhach','HomeController@Hanhkhach');
 Route::get('huyve','HomeController@huyve');
 Route::post('/storecard','ProjectController@store');
 Route::get('hoanthanh','HomeController@hoanthanh');
+Route::post('/huyveshow','HomeController@huyve');
+
 
 
 

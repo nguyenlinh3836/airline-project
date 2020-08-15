@@ -15,8 +15,8 @@ class CreateGiaveTable extends Migration
     {
         Schema::create('giave', function (Blueprint $table) {
             $table->id();
-            $table->float('pho_thong');
-            $table->float('thuong_gia');
+            $table->integer('pho_thong');
+            $table->integer('thuong_gia');
             $table->timestamps();
         });
     }

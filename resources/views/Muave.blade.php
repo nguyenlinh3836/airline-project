@@ -5,12 +5,11 @@
     <section class="parallax">
         <div class="container">
             @if(count($flights)>0)
-                @foreach($flights as $flight)
             <div class="hh col-md-12 mt-3">
                 <h2 class="text-center">Chọn chuyến bay</h2>
                 <div class = "content-table">
                     <div class="content">
-                        <h4>Chọn chuyến bay đi ngày {{$flight->ngaykhoihanh}}</h4>
+                        <h4>Chọn chuyến bay đi</h4>
                         <form method="post" action="/storeprice">
                             @csrf
                             <div class="table-responsive table-bordered text-center">
@@ -25,6 +24,7 @@
                                     </tr>
                                     </thead>
                                     <tbody>
+                                    @foreach($flights as $flight)
                                     <tr>
                                         <th scope="row">{{$flight->ten}}</th>
                                         <td>
@@ -63,13 +63,12 @@
                                             </div>
                                         </td>
                                     </tr>
+                                    @endforeach
                                     </tbody>
                                 </table>
                                 <input class="btn btn-primary" type="submit" value="Tiếp tục">
                             </div>
-
                         </form>
-                        @endforeach
                         @else
                             <div class="buy-none">
                                 <div class="none-content">
