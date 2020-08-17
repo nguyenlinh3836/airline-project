@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');});
+    return view('Hanhkhach');});
 Route::get('home','HomeController@home');
 Route::get('trangthai','HomeController@trangthai');
 Route::get('Uudai2','HomeController@uudai2');
@@ -33,6 +33,8 @@ Route::post('/huyveshow','HomeController@huyve');
 Route::post('/storecard','ProjectController@store');
 Route::get('hoanthanh','HomeController@hoanthanh');
 Route::post('/huyveshow','HomeController@huyve');
+Route::get('tintuc','HomeController@tintuc');
+Route::get('tintuc2','HomeController@tintuc2');
 
 
 
