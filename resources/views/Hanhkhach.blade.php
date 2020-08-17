@@ -75,6 +75,14 @@
                                     </div>
                                     <div class="row">
                                         <p class="col-md-4 padding10">
+                                            <span>Địa chỉ</span>
+                                        </p>
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control" id="ho" name="ho" placeholder="Nhập" required>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <p class="col-md-4 padding10">
                                             <span>Số CMND</span>
                                         </p>
                                         <div class="col-md-8">
