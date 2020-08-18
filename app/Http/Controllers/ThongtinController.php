@@ -10,21 +10,6 @@ use App\thongtin;
 
 class ThongtinController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
-    {
-
-    }
-
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
 
     /**
      * Store a newly created resource in storage.
@@ -50,13 +35,14 @@ class ThongtinController extends Controller
         $hanhkhach->gioi_tinh= $request->get('gioi_tinh');
         $hanhkhach->sdt= $request->get('sdt');
         $hanhkhach->email = $request->get('email');
-        $hanhkhach->the()->save($the);
+        $hanhkhach->diachi = $request->get('diachi');
         return redirect('thanhtoan');
     }
 
     public function  storeprice(Request $request){
         $price = new Thongtinve();
         $price-> tongtien = $request->get('radio');
+        $price->chuyenbay_id = $request->get('id');
         $price->save();
         return redirect('Hanhkhach');
     }
@@ -70,31 +56,7 @@ class ThongtinController extends Controller
     public function show($id)
     {
         $post = Post::findOrFail($id);
-
         return view('huyve.post', compact('post'));
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit($id)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
-    {
-        //
     }
 
     /**
@@ -105,7 +67,7 @@ class ThongtinController extends Controller
      */
     public function destroy($id)
     {
-        $post = Post::findOrFail($id);
+        $post = Thongtinve::findOrFail($id);
         $post->delete();
         return view('huyve', compact('post'));
     }

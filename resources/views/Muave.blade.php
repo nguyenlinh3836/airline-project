@@ -26,6 +26,7 @@
                                     <tbody>
                                     @foreach($flights as $flight)
                                             <tr>
+                                                <input type="hidden" name="id" value="{{$flight->id}}">
                                                 <th scope="row">{{$flight->ten}}</th>
                                                 <td>
                                                     <div class="flight-from float-left">
@@ -46,7 +47,7 @@
                                                                 Chọn chuyến bay
                                                             </label>
                                                         </div>
-                                                        <h5 class="flight-price">{{number_format($flight->pho_thong,0,',',',')}} </h5>
+                                                        <h5 class="flight-price">{{number_format($flight->pho_thong,0,',',',')}} VND</h5>
                                                         <span class="flight-seat">Chuyến bay này còn {{$flight->soghe}} chỗ</span>
                                                     </div>
                                                 </td>
@@ -58,7 +59,7 @@
                                                                 Chọn chuyến bay
                                                             </label>
                                                         </div>
-                                                        <h5 class="flight-price">{{$flight->thuong_gia}}</h5>
+                                                        <h5 class="flight-price">{{number_format($flight->thuong_gia,0,',',',')}} VND</h5>
                                                         <span class="flight-seat">Chuyến bay này còn {{$flight->soghe}} chỗ</span>
                                                     </div>
                                                 </td>

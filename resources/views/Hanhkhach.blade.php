@@ -78,7 +78,7 @@
                                             <span>Địa chỉ</span>
                                         </p>
                                         <div class="col-md-8">
-                                            <input type="text" class="form-control" id="ho" name="ho" placeholder="Nhập" required>
+                                            <input type="text" class="form-control"  name="diachi" placeholder="diachi" required>
                                         </div>
                                     </div>
                                     <div class="row">
