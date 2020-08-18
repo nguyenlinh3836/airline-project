@@ -3,7 +3,8 @@
 namespace App\Http\Controllers;
 use App\Hanhkhach;
 use App\News;
-use App\LoaiVe;
+use App\the;
+use App\Thongtinve;
 use Illuminate\Http\Request;
 use App\thongtin;
 
@@ -16,7 +17,7 @@ class ThongtinController extends Controller
      */
     public function index()
     {
-        //
+
     }
 
     /**
@@ -33,20 +34,28 @@ class ThongtinController extends Controller
      */
     public function store(Request $request)
     {
+        $this->validate($request,[
+            'ho'=>'required',
+            'ten'=>'required',
+            'ngay_sinh'=>'required',
+            'sdt'=>'required',
+            'email'=>'required',
+        ]);
+        $the = new the();
         $hanhkhach = new Hanhkhach();
-        $hanhkhach->danhxung = $request->get('danhxung');
+        $hanhkhach->cmnd= $request->get('cmnd');
         $hanhkhach->ho = $request->get('ho');
         $hanhkhach->ten = $request->get('ten');
         $hanhkhach->ngay_sinh= $request->get('ngay_sinh');
         $hanhkhach->gioi_tinh= $request->get('gioi_tinh');
         $hanhkhach->sdt= $request->get('sdt');
         $hanhkhach->email = $request->get('email');
-        $hanhkhach->save();
+        $hanhkhach->the()->save($the);
         return redirect('thanhtoan');
     }
 
     public function  storeprice(Request $request){
-        $price = new LoaiVe();
+        $price = new Thongtinve();
         $price-> tongtien = $request->get('radio');
         $price->save();
         return redirect('Hanhkhach');
@@ -98,7 +107,6 @@ class ThongtinController extends Controller
     {
         $post = Post::findOrFail($id);
         $post->delete();
-
-        return view('huyve.post', compact('post'));
+        return view('huyve', compact('post'));
     }
 }

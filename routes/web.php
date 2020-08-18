@@ -33,6 +33,8 @@ Route::post('/huyveshow','HomeController@huyve');
 Route::post('/storecard','ProjectController@store');
 Route::get('hoanthanh','HomeController@hoanthanh');
 Route::post('/huyveshow','HomeController@huyve');
+Route::get('tintuc','HomeController@tintuc');
+Route::get('tintuc2','HomeController@tintuc2');
 
 
 

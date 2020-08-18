@@ -22,18 +22,7 @@
                                         Căn cước công dân.</p>
                                 </div>
                                 <div class="col-md-8">
-                                    <div class="row">
-                                        <p class="col-md-4 padding10">
-                                            <span>Danh xưng</span>
-                                        </p>
-                                        <div class="col-md-8">
-                                            <select class="custom-select my-1 mr-sm-2" id="danhxung" name="danhxung">
-                                                <option selected>Chọn</option><option  value="1">Cô/Chị</option>
-                                                <option value="2">Ông</option>
-                                                <option value="3">Bà</option>
-                                            </select>
-                                        </div>
-                                    </div>
+
 
                                     <div class="row">
                                         <p class="col-md-4 padding10">
@@ -82,6 +71,22 @@
                                         </p>
                                         <div class="col-md-8">
                                                     <input type="text" class="form-control"id="sdt" name="sdt" placeholder="Số điện thoại" required>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <p class="col-md-4 padding10">
+                                            <span>Địa chỉ</span>
+                                        </p>
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control" id="ho" name="ho" placeholder="Nhập" required>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <p class="col-md-4 padding10">
+                                            <span>Số CMND</span>
+                                        </p>
+                                        <div class="col-md-8">
+                                            <input type="text" class="form-control"  name="cmnd" placeholder="Nhập" required>
                                         </div>
                                     </div>
                                     <div class="row">
