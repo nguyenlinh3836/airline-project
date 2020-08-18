@@ -2,8 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Flight;
+use App\Chuyenbay;
 use App\the;
+
 use Illuminate\Http\Request;
 use DB;
 class ProjectController extends Controller

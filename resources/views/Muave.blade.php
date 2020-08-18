@@ -25,44 +25,45 @@
                                     </thead>
                                     <tbody>
                                     @foreach($flights as $flight)
-                                    <tr>
-                                        <th scope="row">{{$flight->ten}}</th>
-                                        <td>
-                                            <div class="flight-from float-left">
-                                                <span class="time-from">{{$flight->giodi}}</span><br/>
-                                                {{$flight->noidi}}
-                                            </div>
-                                            <span class="float-left"><i class="fas fa-plane m-2"></i></span>
-                                            <div class="flight-to float-left">
-                                                <span class="time-to">{{$flight->gioden}}</span><br/>
-                                                {{$flight->noiden}}</div>
-                                        </td>
-                                        <td>{{$flight->thoigian}}</td>
-                                        <td class="price-normal">
-                                            <div class="form-group">
-                                                <div class="radio">
-                                                    <label>
-                                                        <input type="radio" name="radio" value="{{$flight->pho_thong}}" required style="height: 18px; width: 18px;vertical-align: middle;">
-                                                        Chọn chuyến bay
-                                                    </label>
-                                                </div>
-                                                <h5 class="flight-price">{{$flight->pho_thong}}</h5>
-                                                <span class="flight-seat">Chuyến bay này còn 5 chỗ</span>
-                                            </div>
-                                        </td>
-                                        <td class="price-vip">
-                                            <div class="form-group">
-                                                <div class="radio">
-                                                    <label>
-                                                        <input type="radio" name="radio" value="{{$flight->thuong_gia}}" required style="height: 18px; width: 18px;vertical-align: middle;">
-                                                        Chọn chuyến bay
-                                                    </label>
-                                                </div>
-                                                <h5 class="flight-price">{{$flight->thuong_gia}}</h5>
-                                                <span class="flight-seat">Chuyến bay này còn {{$flight->soghe}} chỗ</span>
-                                            </div>
-                                        </td>
-                                    </tr>
+                                            <tr>
+                                                <th scope="row">{{$flight->ten}}</th>
+                                                <td>
+                                                    <div class="flight-from float-left">
+                                                        <span class="time-from">{{$flight->giodi}}</span><br/>
+                                                        {{$flight->noidi}}
+                                                    </div>
+                                                    <span class="float-left"><i class="fas fa-plane m-2"></i></span>
+                                                    <div class="flight-to float-left">
+                                                        <span class="time-to">{{$flight->gioden}}</span><br/>
+                                                        {{$flight->noiden}}</div>
+                                                </td>
+                                                <td>{{$flight->thoigian}}</td>
+                                                <td class="price-normal">
+                                                    <div class="form-group">
+                                                        <div class="radio">
+                                                            <label>
+                                                                <input type="radio" name="radio" value="{{$flight->pho_thong}}" required style="height: 18px; width: 18px;vertical-align: middle;">
+                                                                Chọn chuyến bay
+                                                            </label>
+                                                        </div>
+                                                        <h5 class="flight-price">{{number_format($flight->pho_thong,0,',',',')}} </h5>
+                                                        <span class="flight-seat">Chuyến bay này còn {{$flight->soghe}} chỗ</span>
+                                                    </div>
+                                                </td>
+                                                <td class="price-vip">
+                                                    <div class="form-group">
+                                                        <div class="radio">
+                                                            <label>
+                                                                <input type="radio" name="radio" value="{{$flight->thuong_gia}}" required style="height: 18px; width: 18px;vertical-align: middle;">
+                                                                Chọn chuyến bay
+                                                            </label>
+                                                        </div>
+                                                        <h5 class="flight-price">{{$flight->thuong_gia}}</h5>
+                                                        <span class="flight-seat">Chuyến bay này còn {{$flight->soghe}} chỗ</span>
+                                                    </div>
+                                                </td>
+                                            </tr>
+
                                     @endforeach
                                     </tbody>
                                 </table>

@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use DB;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller
@@ -15,9 +15,12 @@ class HomeController extends Controller
         return view('Uudai2');
     }
 
-    public function trangthai()
+    public function trangthai(Request $request)
     {
-        return view('trangthai');
+        $chuyenbay = DB::table('chuyenbay')
+            ->join('maybay','chuyenbay.maybay_id','=','maybay.id')
+            ->get();
+        return view('trangthai',compact('chuyenbay'));
     }
     public function gioithieu()
     {
