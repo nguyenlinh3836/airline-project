@@ -9,6 +9,6 @@ class Chuyenbay extends Model
    protected $table= "chuyenbay";
 
    public function Thongtinve(){
-       return $this->belongsTo('app\Thongtinve','chuyenbay_id','id');
+       return $this->hasMany('app\Thongtinve','chuyenbay_id','id');
    }
 }

@@ -18,11 +18,12 @@ class CreateThongtinveTable extends Migration
             $table->integer('tongtien');
             $table->unsignedBigInteger('chuyenbay_id');
             $table->foreign('chuyenbay_id')->references('id')->on('chuyenbay');
-            $table->unsignedBigInteger('hk_id');
+            $table->unsignedBigInteger('hk_id')->nullable();
             $table->foreign('hk_id')->references('id')->on('hanhkhach');
-            $table->unsignedBigInteger('the_id');
+            $table->unsignedBigInteger('the_id')->nullable();
             $table->foreign('the_id')->references('id')->on('the');
             $table->timestamps();
+
         });
     }
 

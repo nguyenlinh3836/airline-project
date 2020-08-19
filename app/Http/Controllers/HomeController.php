@@ -19,7 +19,8 @@ class HomeController extends Controller
     {
         $chuyenbay = DB::table('chuyenbay')
             ->join('maybay','chuyenbay.maybay_id','=','maybay.id')
-            ->get();
+            ->orderby('ngaykhoihanh','DESC')
+            ->paginate(10);
         return view('trangthai',compact('chuyenbay'));
     }
     public function gioithieu()

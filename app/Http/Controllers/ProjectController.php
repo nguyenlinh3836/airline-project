@@ -9,25 +9,6 @@ use Illuminate\Http\Request;
 use DB;
 class ProjectController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function index()
-    {
-        //
-    }
-
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        //
-    }
 
     /**
      * Store a newly created resource in storage.
@@ -46,50 +27,6 @@ class ProjectController extends Controller
         return redirect('hoanthanh');
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function edit($id)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function update(Request $request, $id)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy($id)
-    {
-        //
-    }
     public function search(Request $request){
         $flights = DB::table('chuyenbay')
             ->join('giave','chuyenbay.giave_id','=','giave.id')
@@ -100,4 +37,13 @@ class ProjectController extends Controller
             ->get();
         return view('Muave',compact('flights'));
     }
+    public function searchinfo(Request $request){
+        $info = DB::table('thongtinve')
+            ->join('chuyenbay','thongtinve.chuyenbay_id','=','chuyenbay.id')
+            ->join('hanhkhach','thongtinve.hk_id','=','hanhkhach.id')
+            ->join('the','thongtinve.the_id','=','the.id')
+            ->where('id','LIKE',$request->search)
+            ->get();
+    }
+
 }
