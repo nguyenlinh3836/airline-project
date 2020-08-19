@@ -1,5 +1,5 @@
 @extends('layouts.default')
-@section('title','Thanh Toan')
+@section('title','Thanh toán')
 @section('css','css/thanhtoan.css')
 @section('content')
     <form method="post" action="/storecard">

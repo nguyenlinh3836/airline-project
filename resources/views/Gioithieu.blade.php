@@ -1,5 +1,5 @@
 @extends('layouts.default')
-@section('title','Gioi Thiệu')
+@section('title','Giới Thiệu')
 @section('css','css/gioi_thieu.css')
 @section('content')
     <section class="sec3">
