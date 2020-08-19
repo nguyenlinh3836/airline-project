@@ -9,7 +9,6 @@
                 <h2 class="text-center">Chọn chuyến bay</h2>
                 <div class = "content-table">
                     <div class="content">
-                        <h4>Chọn chuyến bay đi</h4>
                         <form method="post" action="/storeprice">
                             @csrf
                             <div class="table-responsive table-bordered text-center">

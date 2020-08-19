@@ -29,7 +29,7 @@
                                     <option value="Đà Lạt">Đà Lạt</option>
                                     <option value="Phú Quốc">Phú Quốc</option>
                                     <option value="Cà Mau">Cà Mau</option>
-                                    <option value="TP Hồ Chí Minh">TP Hồ Chí Minh</option>
+                                    <option value="TP. Hồ Chí Minh">TP Hồ Chí Minh</option>
                                 </select>
                             </div>
                         </div>
@@ -40,7 +40,7 @@
                                     <option value="Hà Nội">Hà Nội</option>
                                     <option value="Đà Nẵng">Đà Nẵng</option>
                                     <option value="Phú Quốc">Phú Quốc</option>
-                                    <option value="TP Hồ Chí Minh">TP Hồ Chí Minh</option>
+                                    <option value="TP. Hồ Chí Minh">TP Hồ Chí Minh</option>
                                 </select>
                             </div>
                         </div>

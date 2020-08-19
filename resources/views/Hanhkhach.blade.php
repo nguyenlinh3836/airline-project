@@ -29,7 +29,7 @@
                                             <span>Họ</span>
                                         </p>
                                         <div class="col-md-8">
-                                            <input type="text" class="form-control" id="ho" name="ho" placeholder="Nhập" required>
+                                            <input type="text" class="form-control" id="ho" name="ho" placeholder="Họ" required>
                                         </div>
                                     </div>
 
@@ -38,7 +38,7 @@
                                             <span>Đệm và Tên</span>
                                         </p>
                                         <div class="col-md-8">
-                                            <input type="text" class="form-control"id="ten" name="ten" placeholder="Nhập" required>
+                                            <input type="text" class="form-control"id="ten" name="ten" placeholder="Tên" required>
                                         </div>
                                     </div>
 
@@ -78,7 +78,7 @@
                                             <span>Địa chỉ</span>
                                         </p>
                                         <div class="col-md-8">
-                                            <input type="text" class="form-control"  name="diachi" placeholder="diachi" required>
+                                            <input type="text" class="form-control"  name="diachi" placeholder="Địa chỉ" required>
                                         </div>
                                     </div>
                                     <div class="row">
@@ -86,7 +86,7 @@
                                             <span>Số CMND</span>
                                         </p>
                                         <div class="col-md-8">
-                                            <input type="text" class="form-control"  name="cmnd" placeholder="Nhập" required>
+                                            <input type="text" class="form-control"  name="cmnd" placeholder="Nhập CMND" required>
                                         </div>
                                     </div>
                                     <div class="row">
